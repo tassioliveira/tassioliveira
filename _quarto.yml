@@ -1,0 +1,21 @@
+project:
+  type: website
+  resources:
+    - CNAME
+
+website:
+  title: "Tassiana Moura de Oliveira"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: writing.qmd
+        text: Writing
+      - href: https://YOURNAME.substack.com
+        text: Substack
+
+format:
+  html:
+    theme: flatly
